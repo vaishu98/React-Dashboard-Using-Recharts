@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Dashboard-Using-Recharts/static/css/main.23efc1a2.css",
+    "main.js": "/React-Dashboard-Using-Recharts/static/js/main.fbdea71a.js",
+    "static/js/787.b701888c.chunk.js": "/React-Dashboard-Using-Recharts/static/js/787.b701888c.chunk.js",
+    "static/media/co.jpeg": "/React-Dashboard-Using-Recharts/static/media/co.886d4fec22f116939904.jpeg",
+    "static/media/fa-solid-900.ttf": "/React-Dashboard-Using-Recharts/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/React-Dashboard-Using-Recharts/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/React-Dashboard-Using-Recharts/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/React-Dashboard-Using-Recharts/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/React-Dashboard-Using-Recharts/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/ab.jpg": "/React-Dashboard-Using-Recharts/static/media/ab.6fe964a2210ce62cff35.jpg",
+    "static/media/fa-regular-400.woff2": "/React-Dashboard-Using-Recharts/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/React-Dashboard-Using-Recharts/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/React-Dashboard-Using-Recharts/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/React-Dashboard-Using-Recharts/index.html",
+    "main.23efc1a2.css.map": "/React-Dashboard-Using-Recharts/static/css/main.23efc1a2.css.map",
+    "main.fbdea71a.js.map": "/React-Dashboard-Using-Recharts/static/js/main.fbdea71a.js.map",
+    "787.b701888c.chunk.js.map": "/React-Dashboard-Using-Recharts/static/js/787.b701888c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23efc1a2.css",
+    "static/js/main.fbdea71a.js"
+  ]
+}
