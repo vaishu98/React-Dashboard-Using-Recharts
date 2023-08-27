@@ -1,0 +1,204 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* basic positioning */
+.legend {
+  list-style: none;
+}
+
+.legend li {
+  float: left;
+  margin-right: 10px;
+}
+
+.legend span {
+  border: 1px solid #ccc;
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin: 2px;
+}
+
+/* your colors */
+.legend .superawesome {
+  background-color: #0088FE;
+  margin-top: 6px;
+}
+
+.legend .awesome {
+  background-color: #00C49F;
+  margin-top: 6px;
+}
+
+.legend .kindaawesome {
+  background-color: #FFBB28;
+  margin-top: 6px;
+}
+
+.legend .notawesome {
+  background-color: #FF8042;
+  margin-top: 6px;
+}
+
+.legend .tampa {
+  background-color: #8884d8;
+  margin-top: 6px;
+}
+
+.legend .ocala {
+  background-color: #82ca9d;
+  margin-top: 6px;
+}
+
+.legend .gainesville {
+  background-color: #ffc658;
+  margin-top: 6px;
+}
+
+.stic {
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+
+.ab1 {
+  background-color: rgb(109, 83, 64);
+  text-align: center;
+}
+
+.ab2 {
+  border-radius: 25px;
+  background-color: white;
+  display: inline-block;
+  padding: 3rem 3rem;
+  vertical-align: middle;
+  height: fit-content;
+  width: 600px;
+  align-content: center;
+  margin: 1rem;
+
+}
+
+.ab3 {
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  height: 2in;
+  width: 1px;
+  margin-left: auto;
+  text-align: justify;
+  margin: 0.8rem;
+}
+
+.ab4 {
+  background-color: rgb(240, 223, 206);
+  display: inline-block;
+  padding: 3rem 3rem;
+  vertical-align: middle;
+  height: 3in;
+  width: 600px;
+  margin-left: 0%;
+  text-align: justify;
+  font-weight: 500;
+  margin: 1rem;
+}
+
+.co1 {
+  background-color: rgb(109, 83, 64);
+  text-align: center;
+  margin-top: 1in;
+  margin-bottom: 1in;
+}
+
+.co2 {
+  border-radius: 25px;
+  background-color: white;
+  display: inline-block;
+  vertical-align: middle;
+  height: fit-content;
+  width: 600px;
+  align-content: center;
+  margin: 1rem;
+
+}
+
+.co3 {
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  height: 2in;
+  width: 1px;
+  margin-left: auto;
+  text-align: justify;
+  margin: 0.8rem;
+}
+
+.co4 {
+  background-color: rgb(240, 223, 206);
+  display: inline-block;
+  padding: 3rem 3rem;
+  vertical-align: middle;
+  height: 3in;
+  width: 600px;
+  margin-left: 0%;
+  text-align: center;
+  font-weight: 1000;
+  font-size: large;
+  margin: 1rem;
+}
+
+.co4 a:link {
+  color: rgb(71, 84, 140);
+}
+
+/* visited link */
+.co4 a:visited {
+  color: rgb(130, 60, 60);
+}
+
+/* mouse over link */
+.co4 a:hover {
+  color: rgb(59, 151, 59)
+}
+
+/* selected link */
+.co4 a:active {
+  color: rgb(151, 61, 135);
+}

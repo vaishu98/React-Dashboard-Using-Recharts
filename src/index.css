@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.parent1 {
+  border-radius: 15px;
+  background-color: rgb(217, 167, 128);
+  margin: 2rem;
+  padding: 3rem 3rem;
+  text-align: center;
+}
+
+.childg1 {
+  border-radius: 15px;
+  background-color: white;
+  display: inline-block;
+  padding: 3rem 3rem;
+  vertical-align: middle;
+  height: fit-content;
+  width: 600px;
+  align-content: center;
+  margin: 1rem;
+}
+
+.childt1 {
+  border-radius: 15px;
+  background-color: rgb(240, 223, 206);
+  ;
+  display: inline-block;
+  padding: 3rem 3rem;
+  vertical-align: middle;
+  height: fit-content;
+  width: 600px;
+  text-align: justify;
+  margin: 1rem;
+}
+
+.title {
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.maintitle {
+  vertical-align: middle;
+  border-radius: 15px;
+  background-color: rgb(109, 83, 64);
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  margin: 2rem;
+}
+
+.parent2 {
+  border-radius: 15px;
+  background-color: rgba(217, 167, 128, 0.61);
+  margin: 2rem;
+  padding: 3rem 3rem;
+  text-align: center;
+}
+
+.childg2 {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.799);
+  display: inline-block;
+  padding: 3rem 3rem;
+  vertical-align: middle;
+  height: fit-content;
+  width: 600px;
+  margin: 1rem;
+}
+
+.childt2 {
+  border-radius: 15px;
+  background-color: rgba(240, 223, 206, 0.724);
+  ;
+  display: inline-block;
+  padding: 3rem 3rem;
+  vertical-align: middle;
+  height: fit-content;
+  width: 600px;
+  text-align: justify;
+  margin: 1rem;
+}
+
+.childt1:hover {
+  background-image: linear-gradient(135deg, #f4e9df, #e9f191bd);
+  transform: scale(1.05);
+  font-weight: 500;
+  border: 5px solid #fffdfd;
+}
+
+.childt2:hover {
+  background-image: linear-gradient(135deg, #f4e9df, #e9f191bd);
+  transform: scale(1.05);
+  font-weight: 500;
+  border: 5px solid #fffdfd;
+}
+
+.childg1:hover {
+  background-image: linear-gradient(135deg, white, #e9f191bd);
+  transform: scale(1.05);
+  border: 5px solid #fffdfd;
+}
+
+.childg2:hover {
+  background-image: linear-gradient(135deg, white, #e9f191bd);
+  transform: scale(1.05);
+  font-weight: 400;
+  border: 5px solid #fffdfd;
+}
+
+.parent1:hover {
+  transform: scale(1.02);
+  border: 5px solid #c8e2be;
+}
+
+.parent2:hover {
+  transform: scale(1.02);
+  border: 5px solid #c8e2be;
+}
+
+.mm {
+  background-color: rgba(240, 223, 206, 0.816);
+  ;
+}
+
+.nav-link active {
+  background-color: rgb(126, 91, 52) !important;
+}
