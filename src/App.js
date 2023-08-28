@@ -27,13 +27,13 @@ function App() {
 
 
   return (
-    <HashRouter >
+    <HashRouter>
       <div className='mm'>
         <Header title="Dashboard" />
         <Routes>
-          <Route path='/React-Dashboard-Using-Recharts/#' exact element={<Dashboard />} />
-          <Route path='/React-Dashboard-Using-Recharts/#contact' exact element={<Contact />} />
-          <Route path='/React-Dashboard-Using-Recharts/#about' exact element={<About />} />
+          <Route path='/' exact element={<Dashboard />} />
+          <Route path='/contact' exact element={<Contact />} />
+          <Route path='/about' exact element={<About />} />
         </Routes>
         <Footer />
       </div>
