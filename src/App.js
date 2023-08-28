@@ -4,32 +4,43 @@ import Footer from './MyComponents/Footer';
 import Dashboard from './MyComponents/Dashboard';
 import About from './MyComponents/About';
 import Contact from './MyComponents/Contact';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 
 function App() {
 
 
-  let component
-  switch (window.location.pathname) {
-    case "/":
-      component = <Dashboard />
-      break
-    case "/contact":
-      component = <Contact />
-      break
-    case "/about":
-      component = <About />
-      break
-  }
+  // let component
+  // switch (window.location.pathname) {
+  //   case "/React-Dashboard-Using-Recharts":
+  //     component = <Dashboard />
+  //     break
+  //   case "/contact":
+  //     component = <Contact />
+  //     break
+  //   case "/about":
+  //     component = <About />
+  //     break
+  //   default:
+  //     component = <Dashboard />
+  // }
 
 
   return (
-    <div className='mm'>
-      <Header title="Dashboard" />
-      {component}
+    <HashRouter >
+      <div className='mm'>
+        <Header title="Dashboard" />
+        <Routes>
+          <Route path='/React-Dashboard-Using-Recharts' exact element={<Dashboard />} />
+          <Route path='/contact' exact element={<Contact />} />
+          <Route path='/about' exact element={<About />} />
+          <Route path='/' exact element={<Dashboard />} />
+        </Routes>
+        <Footer />
+      </div>
+    </HashRouter >
 
-      <Footer />
-    </div>
+
   );
 }
 
