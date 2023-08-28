@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Dashboard-Using-Recharts/static/css/main.23efc1a2.css",
-    "main.js": "/React-Dashboard-Using-Recharts/static/js/main.465bec5e.js",
+    "main.js": "/React-Dashboard-Using-Recharts/static/js/main.780dcfca.js",
     "static/js/787.b701888c.chunk.js": "/React-Dashboard-Using-Recharts/static/js/787.b701888c.chunk.js",
     "static/media/co.jpeg": "/React-Dashboard-Using-Recharts/static/media/co.886d4fec22f116939904.jpeg",
     "static/media/fa-solid-900.ttf": "/React-Dashboard-Using-Recharts/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
@@ -15,11 +15,11 @@
     "static/media/fa-v4compatibility.woff2": "/React-Dashboard-Using-Recharts/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/React-Dashboard-Using-Recharts/index.html",
     "main.23efc1a2.css.map": "/React-Dashboard-Using-Recharts/static/css/main.23efc1a2.css.map",
-    "main.465bec5e.js.map": "/React-Dashboard-Using-Recharts/static/js/main.465bec5e.js.map",
+    "main.780dcfca.js.map": "/React-Dashboard-Using-Recharts/static/js/main.780dcfca.js.map",
     "787.b701888c.chunk.js.map": "/React-Dashboard-Using-Recharts/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23efc1a2.css",
-    "static/js/main.465bec5e.js"
+    "static/js/main.780dcfca.js"
   ]
 }
