@@ -15,13 +15,13 @@ export default function Header(props) {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className={(pat === '/React-Dashboard-Using-Recharts/#') ? 'nav-link active' : 'nav-link'} aria-current="page" href="/React-Dashboard-Using-Recharts/#">Home</a>
+                                <a className={(pat === '/React-Dashboard-Using-Recharts/?#') ? 'nav-link active' : 'nav-link'} aria-current="page" href="/React-Dashboard-Using-Recharts/?#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className={(pat === '/React-Dashboard-Using-Recharts/#about') ? 'nav-link active' : 'nav-link'} href="/React-Dashboard-Using-Recharts/#about">About</a>
+                                <a className={(pat === '/React-Dashboard-Using-Recharts/?#about') ? 'nav-link active' : 'nav-link'} href="/React-Dashboard-Using-Recharts/?#about">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className={(pat === '/React-Dashboard-Using-Recharts/#contact') ? 'nav-link active' : 'nav-link'} href="/React-Dashboard-Using-Recharts/#contact">Contact</a>
+                                <a className={(pat === '/React-Dashboard-Using-Recharts/?#contact') ? 'nav-link active' : 'nav-link'} href="/React-Dashboard-Using-Recharts/?#contact">Contact</a>
                             </li>
                         </ul>
                         <form className="d-flex">
