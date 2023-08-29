@@ -33,19 +33,19 @@ Check out the live demo of the application: https://vaishu98.github.io/React-Das
 
 1. Clone the repository:
 
-''' bash
+'''bash
 git clone https://github.com/vaishu98/React-Dashboard-Using-Recharts.git
 '''
 
 2. Navigate to the project directory:
 
-''' bash
+'''bash
 cd React-Dashboard-Using-Recharts
 '''
 
 3. Install the required dependencies:
 
-''' bash
+'''bash
 npm install
 '''
 
@@ -53,7 +53,7 @@ npm install
 
 1. Start the development server:
 
-''' bash
+'''bash
 npm start
 '''
 
